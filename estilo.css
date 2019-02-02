@@ -1,0 +1,48 @@
+/*
+Hoja de Estilo para index.html
+*/
+
+body {
+   background: #f46f6f url(images/fondo.jpg) top right repeat;
+}
+
+body #relojLocal{
+    background: #FA8072;
+    display: block;
+    margin: 150px 0 40px 450px;
+    text-align: center;
+    width: 500px;
+
+}
+
+body #relojLocal p{
+  color: #fff;
+  display: inline;
+  font-family: 'code_boldregular';
+  font-size: 6em;
+}
+
+body #horaLocal p{
+  color: #fff;
+  font-family: 'code_boldregular';
+  font-size: 6em;
+  margin-left: 50px;
+}
+
+#horaS {
+  background: #F08080;
+  font-family: 'code_boldregular';
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+#horaL {
+  color: #fff;
+  font-family: 'code_boldregular';
+  background: #F08080;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}

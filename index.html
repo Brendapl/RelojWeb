@@ -1,0 +1,28 @@
+<!--
+ Código para elebarar nuestra página web
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Local and Server Time</title>
+        <link rel="stylesheet" href="estilo.css">
+            <script language="javascript" src="datetime.js"></script>
+            <script type="text/javascript" src="funciones.js"></script>
+            </head>
+    <script language="javascript">
+        document.write('<p id="horaS">' + "Hora Servidor: " + date + '</p>');
+        document.write('<p id="horaL">' + "Hora Local: " + date + '</p>');
+        </script>
+    <body>
+        <section id="relojLocal">
+            <p> Reloj Local </p>
+            <p id="pHora"></p>
+            <p>:</p>
+            <p id="pMinutos"></p>
+            <p>:</p>
+            <p id="pSegundos"></p>
+        </section>
+    </body>
+</html>
+
